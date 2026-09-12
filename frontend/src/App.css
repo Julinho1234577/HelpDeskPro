@@ -330,3 +330,72 @@ tbody tr:last-child td {
         grid-column: auto;
     }
 }
+.history-container {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.status-update {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+.status-update-header {
+    margin-bottom: 15px;
+}
+
+.status-update-header h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #111827;
+}
+
+.status-update-header p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.status-update-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.status-update-controls select {
+    flex: 1;
+    padding: 11px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    background: white;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+}
+
+.status-update-controls select:focus {
+    border-color: #2563eb;
+}
+
+.status-update-controls button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.status-update .message {
+    margin-top: 15px;
+    padding: 12px;
+    box-shadow: none;
+    font-size: 13px;
+}
+
+.message.success {
+    color: #166534;
+    background: #dcfce7;
+    border: 1px solid #bbf7d0;
+}
