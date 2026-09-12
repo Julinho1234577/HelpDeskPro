@@ -1,0 +1,7 @@
+﻿{
+  "title": "Prueba ticket valido",
+  "description": "Ticket creado correctamente despues de validar los datos",
+  "userId": 4,
+  "categoryId": 1,
+  "priorityId": 2
+}
